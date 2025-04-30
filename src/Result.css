@@ -1,0 +1,30 @@
+.result-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .result-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .result-container p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .restart-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #3182ce;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .restart-button:hover {
+    background-color: #2b6cb0;
+  }
+  

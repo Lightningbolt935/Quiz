@@ -1,0 +1,85 @@
+/* Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #742525;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+select {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+
+.container h2 {
+  margin-bottom: 0.5rem;
+}
+
+
+.timer {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  margin-bottom: 1rem;
+}
+
+
+.question {
+  font-size: 1.25rem;
+  margin: 1.2rem 0;
+}
+.feedback {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+.feedback.correct {
+  background-color: #38a169;
+}
+.feedback.incorrect {
+  background-color: #e53e3e;
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3a3a3a;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5c5c5c;
+}
